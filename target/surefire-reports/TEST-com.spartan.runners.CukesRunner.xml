@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.spartan.runners.CukesRunner" time="5.241" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mypro/IdeaProjects/CucumberRest/target/test-classes:/Users/mypro/IdeaProjects/CucumberRest/target/classes:/Users/mypro/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/mypro/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/mypro/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/mypro/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/mypro/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/mypro/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/mypro/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mypro/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/mypro/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/mypro/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/mypro/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/mypro/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/mypro/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mypro/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/mypro/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/mypro/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mypro/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mypro/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/mypro/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/mypro/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/mypro/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/mypro/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mypro/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mypro/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mypro/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/mypro/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/mypro/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/mypro/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/mypro/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/mypro/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar:/Users/mypro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/mypro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/mypro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/mypro/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mypro/IdeaProjects/CucumberRest/target/surefire/surefirebooter6679985865442757959.jar /Users/mypro/IdeaProjects/CucumberRest/target/surefire 2021-01-30T23-11-57_225-jvmRun1 surefire16034601730667424123tmp surefire_07016226172132675449tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mypro/IdeaProjects/CucumberRest/target/test-classes:/Users/mypro/IdeaProjects/CucumberRest/target/classes:/Users/mypro/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/mypro/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/mypro/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/mypro/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/mypro/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/mypro/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mypro/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/mypro/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/mypro/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mypro/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/mypro/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/mypro/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/mypro/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/mypro/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/mypro/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mypro/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/mypro/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/mypro/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/mypro/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/mypro/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/mypro/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/mypro/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/mypro/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/mypro/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/mypro/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/mypro/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/mypro/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/mypro/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/mypro/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/mypro/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/mypro/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/mypro/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar:/Users/mypro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/mypro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/mypro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mypro"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/Users/mypro/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mypro/IdeaProjects/CucumberRest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/mypro/IdeaProjects/CucumberRest/target/surefire/surefirebooter6679985865442757959.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="mypro"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mypro/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/8n/kl6tdgfx0kdd69hlld7gj47m0000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/mypro/IdeaProjects/CucumberRest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/mypro/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="Get the list of all Spartans" classname="User needs to able to perform CRUD operations with spartans" time="1.744"/>
+  <testcase name="Create 1 spartan" classname="User needs to able to perform CRUD operations with spartans" time="0.565">
+    <system-out><![CDATA[HTTP/1.1 201 
+Location: http://54.211.84.13:8000/api/spartans/133
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Sun, 31 Jan 2021 05:11:56 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "success": "A Spartan is Born!",
+    "data": {
+        "id": 133,
+        "name": "Cody",
+        "gender": "Male",
+        "phone": 3540604519
+    }
+}
+actualStatusCode = 201
+]]></system-out>
+  </testcase>
+  <testcase name="PUT spartan that was created with POST request" classname="User needs to able to perform CRUD operations with spartans" time="0.172">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	http://54.211.84.13:8000/api/spartans/133
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Adrianna",
+    "gender": "Female",
+    "phone": 7069124485
+}
+HTTP/1.1 204 
+Date: Sun, 31 Jan 2021 05:11:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+actualStatusCode = 204
+]]></system-out>
+  </testcase>
+  <testcase name="PATCH spartan that was created with POST request" classname="User needs to able to perform CRUD operations with spartans" time="0.125">
+    <system-out><![CDATA[actualStatusCode = 204
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE spartan that was created with POST request" classname="User needs to able to perform CRUD operations with spartans" time="0.15">
+    <system-out><![CDATA[actualStatusCode = 204
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+com/spartan/step_def/get/GetAllSpartansStepDefs.class
+com/spartan/functions/patch/PatchSpartan.class
+com/spartan/step_def/put/PutSpartanStepDefs.class
+com/spartan/util/ConfigurationReader.class
+com/spartan/functions/SpartanPayload.class
+com/spartan/runners/CukesRunner.class
+com/spartan/functions/get/GetAllSpartans.class
+com/spartan/functions/delete/DeleteSpartan.class
+com/spartan/step_def/patch/PatchSpartanStefDefs.class
+com/spartan/functions/post/Create1Spartan.class
+com/spartan/step_def/delete/DeleteSpartanStepDefs.class
+com/spartan/step_def/post/Create1SpartanStepDefs.class
+com/spartan/functions/put/PutSpartan.class
